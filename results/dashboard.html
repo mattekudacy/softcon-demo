@@ -1,0 +1,65 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Suki Inbox Costs</title>
+<style>
+:root{--bg:#0f1420;--panel:#171e2e;--line:#2a3448;--text:#e8edf5;--muted:#93a0b8;--crawl:#5fb3f9;--walk:#7dd87d;--run:#f5a524;
+--s0:#3987e5;--s1:#d95926;--s2:#199e70;--good:#7dd87d;--bad:#ff7b72}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 Inter,system-ui,sans-serif}
+main{max-width:1100px;margin:0 auto;padding:32px 16px 64px}h1{font-size:26px;margin:0 0 4px}
+h2{font-size:17px;margin:36px 0 4px}.sub{color:var(--muted);margin:0 0 14px;font-size:14px}
+.mono{font-family:"JetBrains Mono",ui-monospace,monospace}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:20px}
+.tile{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+.tl{color:var(--muted);font-size:13px}.tv{font-size:28px;font-weight:700;margin:4px 0}.tv small{font-size:14px;color:var(--muted);font-weight:400}
+.ts{color:var(--muted);font-size:13px}.good{color:var(--good)}.bad{color:var(--bad)}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:18px}
+.row{display:grid;grid-template-columns:170px 1fr 56px 56px;gap:10px;align-items:center;padding:4px 0}
+.lbl{font-size:14px}.val,.q{text-align:right;font-variant-numeric:tabular-nums;font-size:14px}.q{color:var(--muted)}
+.track{height:18px}.bar{height:100%;background:var(--muted);border-radius:0 4px 4px 0;min-width:2px}.bar.hi{background:var(--run)}
+.head{color:var(--muted);font-size:12px}
+.stack{display:flex;gap:2px;height:30px;margin:6px 0 14px}.seg{border-radius:4px;color:#fff;font-size:13px;padding:5px 8px;white-space:nowrap;overflow:hidden}
+.s0{background:var(--s0)}.s1{background:var(--s1)}.s2{background:var(--s2)}
+table{width:100%;border-collapse:collapse;font-size:14px;font-variant-numeric:tabular-nums}th,td{text-align:left;padding:8px;border-bottom:1px solid var(--line)}
+th{color:var(--muted);font-weight:500}.scroll{overflow-x:auto}
+#tip{position:fixed;pointer-events:none;background:#0a0e17;border:1px solid var(--line);border-radius:8px;padding:6px 10px;font-size:13px;display:none;max-width:320px;z-index:9}
+[data-tip]:hover{filter:brightness(1.15)}
+@media(max-width:600px){.row{grid-template-columns:110px 1fr 44px 44px}}
+</style></head><body><main>
+<h1>Suki Inbox: cost per ticket, Crawl to Run</h1>
+<p class="sub">Reference app on 14 recorded runs of 60 synthetic Taglish support tickets.
+Ollama Cloud list prices. Generated offline from trace files.</p>
+<div class="tiles"><div class="tile"><div class="tl">Cost per ticket</div><div class="tv">$0.182<small>/1k</small></div><div class="ts">crawl $0.672<small>/1k</small> <span class="good">▼ 73%</span></div></div><div class="tile"><div class="tl">Tokens per ticket</div><div class="tv">942</div><div class="ts">crawl 3,171 <span class="good">▼ 70%</span></div></div><div class="tile"><div class="tl">Quality</div><div class="tv">0.906</div><div class="ts">crawl 0.959 <span class="bad">▼ 6%</span></div></div><div class="tile"><div class="tl">p95 latency / ticket</div><div class="tv">10.0s</div><div class="ts">crawl 6.9s <span class="bad">▲ 44%</span></div></div></div>
+
+<h2>Run levers: cost per ticket</h2><p class="sub">Each lever alone, then combined. Right columns: savings vs crawl, quality.</p>
+<div class="card"><div class="row head"><div></div><div></div><div class="val">saved</div><div class="q">quality</div></div><div class="row" data-tip="Crawl baseline: $0.672 per 1k tickets, quality 0.959, 3 runs"><div class="lbl">Crawl baseline</div><div class="track"><div class="bar" style="width:100.0%"></div></div><div class="val"></div><div class="q">0.959</div></div><div class="row" data-tip="Routing only: $0.413 per 1k tickets, quality 0.929, 2 runs"><div class="lbl">Routing only</div><div class="track"><div class="bar" style="width:61.5%"></div></div><div class="val">+39%</div><div class="q">0.929</div></div><div class="row" data-tip="Low reasoning only: $0.612 per 1k tickets, quality 0.955, 2 runs"><div class="lbl">Low reasoning only</div><div class="track"><div class="bar" style="width:91.0%"></div></div><div class="val">+9%</div><div class="q">0.955</div></div><div class="row" data-tip="Context trimming only: $0.374 per 1k tickets, quality 0.930, 2 runs"><div class="lbl">Context trimming only</div><div class="track"><div class="bar" style="width:55.6%"></div></div><div class="val">+44%</div><div class="q">0.930</div></div><div class="row" data-tip="Response cache only: $0.581 per 1k tickets, quality 0.956, 2 runs"><div class="lbl">Response cache only</div><div class="track"><div class="bar" style="width:86.4%"></div></div><div class="val">+14%</div><div class="q">0.956</div></div><div class="row" data-tip="Run: all levers: $0.182 per 1k tickets, quality 0.906, 3 runs"><div class="lbl">Run: all levers</div><div class="track"><div class="bar hi" style="width:27.1%"></div></div><div class="val">+73%</div><div class="q">0.906</div></div></div>
+
+<h2>Walk: where crawl spend goes</h2>
+<p class="sub">Every feature is one call per ticket, but they do not cost the same. Input tokens are 61% of spend.</p>
+<div class="card"><div class="head">Share of calls</div><div class="stack"><div class="seg s0" style="width:33.33%" data-tip="classify: 1 of 3 calls per ticket">classify 33%</div><div class="seg s1" style="width:33.33%" data-tip="extract: 1 of 3 calls per ticket">extract 33%</div><div class="seg s2" style="width:33.33%" data-tip="reply: 1 of 3 calls per ticket">reply 33%</div></div>
+<div class="head">Share of spend</div><div class="stack"><div class="seg s0" style="width:26.47%" data-tip="classify: 26% of spend, avg 946 in / 60 out tokens">classify 26%</div><div class="seg s1" style="width:30.93%" data-tip="extract: 31% of spend, avg 910 in / 119 out tokens">extract 31%</div><div class="seg s2" style="width:42.60%" data-tip="reply: 43% of spend, avg 879 in / 258 out tokens">reply 43%</div></div></div>
+
+<h2>Walk: spend by customer</h2><p class="sub">Right columns: share of spend, share of tickets.</p>
+<div class="card"><div class="row" data-tip="u07: 14% of spend from 13% of tickets"><div class="lbl mono">u07</div><div class="track"><div class="bar hi" style="width:100.0%"></div></div><div class="val">14%</div><div class="q">13%</div></div><div class="row" data-tip="u14: 7% of spend from 7% of tickets"><div class="lbl mono">u14</div><div class="track"><div class="bar" style="width:50.1%"></div></div><div class="val">7%</div><div class="q">7%</div></div><div class="row" data-tip="u15: 7% of spend from 7% of tickets"><div class="lbl mono">u15</div><div class="track"><div class="bar" style="width:49.0%"></div></div><div class="val">7%</div><div class="q">7%</div></div><div class="row" data-tip="u09: 7% of spend from 7% of tickets"><div class="lbl mono">u09</div><div class="track"><div class="bar" style="width:48.2%"></div></div><div class="val">7%</div><div class="q">7%</div></div><div class="row" data-tip="u13: 7% of spend from 7% of tickets"><div class="lbl mono">u13</div><div class="track"><div class="bar" style="width:47.6%"></div></div><div class="val">7%</div><div class="q">7%</div></div><div class="row" data-tip="u11: 7% of spend from 7% of tickets"><div class="lbl mono">u11</div><div class="track"><div class="bar" style="width:47.1%"></div></div><div class="val">7%</div><div class="q">7%</div></div></div>
+
+<h2>Walk: reply input tokens by thread length</h2><p class="sub">Crawl resends the full policy and the full history on every call.</p>
+<div class="card"><div class="row" data-tip="1-turn threads: 871 input tokens per reply call"><div class="lbl">1 turn</div><div class="track"><div class="bar" style="width:94.3%"></div></div><div class="val">871</div><div class="q"></div></div><div class="row" data-tip="3-turn threads: 894 input tokens per reply call"><div class="lbl">3 turns</div><div class="track"><div class="bar" style="width:96.8%"></div></div><div class="val">894</div><div class="q"></div></div><div class="row" data-tip="5-turn threads: 923 input tokens per reply call"><div class="lbl">5 turns</div><div class="track"><div class="bar" style="width:100.0%"></div></div><div class="val">923</div><div class="q"></div></div></div>
+<p class="sub">Alert rule: ticket cost over 2x the baseline median. Flagged: none.</p>
+
+<h2>Estimate before running</h2>
+<p class="sub">FinOps Cost Estimation method: tokens per request × volume × price. Bar is the estimate as a share of measured cost; right column is accuracy (paper target: over 90%).
+Input tokens: 163,256 estimated, 164,058 measured. Output: 11,700 estimated, 26,194 measured, because reasoning tokens bill as output.</p>
+<div class="card"><div class="row" data-tip="Naive estimate: $0.0315 estimated vs $0.0403 measured"><div class="lbl">Naive estimate</div><div class="track"><div class="bar" style="width:65.1%"></div></div><div class="val">78%</div><div class="q"></div></div><div class="row" data-tip="10-ticket pilot: $0.0398 estimated vs $0.0403 measured"><div class="lbl">10-ticket pilot</div><div class="track"><div class="bar hi" style="width:82.2%"></div></div><div class="val">99%</div><div class="q"></div></div></div>
+
+<h2>Model choice quality alignment</h2><p class="sub">Does the cheaper model hold quality on the easy features? (FinOps KPI)</p>
+<div class="card scroll"><table><tr><th>Feature</th><th>Model</th><th>Quality</th><th>Cost</th></tr><tr><td>classify</td><td class="mono">gpt-oss:120b</td><td>0.961</td><td>$0.178 / 1k calls</td></tr><tr><td>extract</td><td class="mono">gpt-oss:120b</td><td>0.998</td><td>$0.208 / 1k calls</td></tr><tr><td>classify</td><td class="mono">gpt-oss:20b</td><td>0.933</td><td>$0.092 / 1k calls</td></tr><tr><td>extract</td><td class="mono">gpt-oss:20b</td><td>0.994</td><td>$0.106 / 1k calls</td></tr></table></div>
+
+<h2>All configs</h2><div class="card scroll"><table>
+<tr><th>Config</th><th>Runs</th><th>$ / 1k tickets</th><th>Saved</th><th>Tokens/ticket</th><th>Quality</th><th>Classify / extract / reply</th><th>p95/ticket</th><th>Cache hits</th></tr>
+<tr><td>Crawl baseline</td><td>3</td><td>$0.672 ± 0.004</td><td></td><td>3,171</td><td>0.959 ± 0.010</td><td>0.96 / 1.00 / 0.92</td><td>6.9s</td><td>0%</td></tr><tr><td>Routing only</td><td>2</td><td>$0.413 ± 0.001</td><td>+39%</td><td>3,264</td><td>0.929 ± 0.006</td><td>0.93 / 0.99 / 0.86</td><td>13.1s</td><td>0%</td></tr><tr><td>Low reasoning only</td><td>2</td><td>$0.612 ± 0.002</td><td>+9%</td><td>3,070</td><td>0.955 ± 0.008</td><td>0.97 / 0.98 / 0.92</td><td>6.8s</td><td>0%</td></tr><tr><td>Context trimming only</td><td>2</td><td>$0.374 ± 0.004</td><td>+44%</td><td>1,161</td><td>0.930 ± 0.000</td><td>0.93 / 1.00 / 0.86</td><td>7.0s</td><td>0%</td></tr><tr><td>Response cache only</td><td>2</td><td>$0.581 ± 0.003</td><td>+14%</td><td>2,717</td><td>0.956 ± 0.013</td><td>0.96 / 1.00 / 0.92</td><td>7.0s</td><td>15%</td></tr><tr><td>Run: all levers</td><td>3</td><td>$0.182 ± 0.003</td><td>+73%</td><td>942</td><td>0.906 ± 0.018</td><td>0.92 / 0.99 / 0.81</td><td>10.0s</td><td>15%</td></tr></table></div>
+<p class="sub">Quality: classify exact match, extract field match, reply share of required policy facts mentioned. Hand-labeled, no LLM judge.</p>
+</main><div id="tip"></div>
+<script>
+const tip=document.getElementById('tip');
+document.addEventListener('mousemove',ev=>{const t=ev.target.closest('[data-tip]');
+if(!t){tip.style.display='none';return}tip.textContent=t.dataset.tip;tip.style.display='block';
+tip.style.left=Math.min(ev.clientX+14,innerWidth-330)+'px';tip.style.top=(ev.clientY+14)+'px'});
+</script></body></html>

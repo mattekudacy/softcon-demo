@@ -1,0 +1,852 @@
+{
+ "summary": {
+  "classify": 0.933,
+  "extract": 0.994,
+  "reply": 0.847,
+  "quality": 0.925
+ },
+ "tickets": {
+  "T001": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T002": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 0.5
+  },
+  "T003": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T004": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 0.5
+  },
+  "T005": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 0.0
+  },
+  "T006": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T007": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 0.0
+  },
+  "T008": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 0.5
+  },
+  "T009": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T010": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 0.0
+  },
+  "T011": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T012": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T013": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 0.0
+  },
+  "T014": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T015": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T016": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T017": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T018": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T019": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T020": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 0.5
+  },
+  "T021": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T022": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T023": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T024": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T025": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T026": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": null
+  },
+  "T027": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T028": {
+   "classify": 0.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T029": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T030": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T031": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T032": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T033": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T034": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T035": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T036": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T037": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T038": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T039": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T040": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T041": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T042": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T043": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T044": {
+   "classify": 0.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T045": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T046": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T047": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T048": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 0.0
+  },
+  "T049": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T050": {
+   "classify": 1.0,
+   "extract": 0.6666666666666666,
+   "reply": 1.0
+  },
+  "T051": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 0.0
+  },
+  "T052": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T053": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T054": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T055": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 0.5
+  },
+  "T056": {
+   "classify": 0.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T057": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 0.5
+  },
+  "T058": {
+   "classify": 0.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T059": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  },
+  "T060": {
+   "classify": 1.0,
+   "extract": 1.0,
+   "reply": 1.0
+  }
+ },
+ "outputs": {
+  "T001": {
+   "intent": "order_status",
+   "fields": {
+    "order_id": "SK-10231",
+    "item": null,
+    "qty": null
+   },
+   "reply": "Hi po, salamat sa pag-follow up. Ang order ID SK-10231 ay naka‑ship na sa J&T Express. Kung 4 na po araw at wala pang galaw, agad naming ia‑file ang follow‑up ticket kay J&T para malaman kung saan na ang parcel. Makakaasa po kayo na tutulungan naming ma‑locate ito. Kung kailangan nyo pang pantuto o may katanungan, andito lang kami. Maraming salamat po!"
+  },
+  "T002": {
+   "intent": "shipping_fee",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "Magkano po shipping sa Cebu? Maaari po naming sabihin na ang shipping fee ay PHP 150."
+  },
+  "T003": {
+   "intent": "payment",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "Opo, may habang UPOS ang COD para sa mga order na PHP 3,000 at mas mababa lang. Kung ang kabuuang halaga ng order mo ay hindi lalampas sa PHP 3,000, pwede mong magpili ng COD bilang paraan ng bayad. Kung ang order ay higit pa sa PHP 3,000, kailangan namang magbayad sa pamamagitan ng GCash, Maya, bank transfer, o kaya’y COD kung mababa pa ang halaga. Kung may gusto kang klarong numero o order amount, sabihin mo lang para matulungan ka namin ng mas eksaktong sagot. 🌿"
+  },
+  "T004": {
+   "intent": "return_refund",
+   "fields": {
+    "order_id": "SK-10240",
+    "item": "bath towel",
+    "qty": null
+   },
+   "reply": "Hi po! Salamat sa pag‑inform tungkol sa maling kulay ng bath towel sa order **SK‑10240**.  \n\nPaki‑send po ng larawan ng natanggap na item sa loob ng 48 oras para ma‑verify namin. Kapag natanggap na namin ang larawan, aayusin po namin ang libreng return shipping at agad naming ipapadala ang tamang kulay o ibabalik ang buong bayad, depende po sa inyong preference.\n\nPara po sa return, siguraduhin lang na:\n- Nasusunod ang 7 araw na return window mula sa delivery.\n- Hindi pa nagagamit ang towel, nasa original packaging pa, at may kasamang order slip.\n\nKapag na‑process na ang return at natanggap na namin ang item, magre‑refund po kami sa orihinal na paraan ng pagbabayad (o magpapadala ng kapalit) sa loob ng 3 business days.\n\nSalamat po! 🙏"
+  },
+  "T005": {
+   "intent": "change_order",
+   "fields": {
+    "order_id": "SK-10245",
+    "item": "dish rack",
+    "qty": null
+   },
+   "reply": "Hi! Salamat po sa pag‑message. Sa order SK‑10245, pwede po nating palitan ang kulay ng dish rack mula white papuntang gray basta hindi pa ito naipapadala. \n\nKung hindi pa na‑ship ang order, pakiconfirm po kung nais niyo talagang baguhin ang kulay at ipapadala namin ang updated na detalye. Kapag na‑ship na po ito, hindi na po ito mababago at maaari na po kayong mag‑file ng return/replace pagkatapos ma‑receive ang item.\n\nSabihin niyo lang po kung okay na po ang pagpapalit, at aayusin na namin agad. Maraming salamat po!"
+  },
+  "T006": {
+   "intent": "cancel_order",
+   "fields": {
+    "order_id": "SK-10250",
+    "item": null,
+    "qty": null
+   },
+   "reply": "Hello po! Susubukan ko po agad tingnan ang status ng order **SK-10250**.  \n- Kung hindi pa ito na‑ship, maaari po naming i‑cancel agad at ibabalik ang buong bayad.  \n- Kung naipadala na ito, hindi na po ito maaaring i‑cancel, pero pwede po kayong mag‑file ng return kapag natanggap ninyo ang item (within 7 days).\n\nMakakaasa po kayo na i‑update ko kayo agad matapos kong makumpirma ang status. Salamat po!"
+  },
+  "T007": {
+   "intent": "product_question",
+   "fields": {
+    "order_id": null,
+    "item": "air fryer",
+    "qty": null
+   },
+   "reply": "Hi! The 24 cm Air Fryer is normally available in Brown and Red. The Black model isn’t stocked right now, but we expect more colors in our next restock cycle (usually about 2 weeks). It has a 0.8 liter capacity. Feel free to let us know if you’d like a notification when black is back in stock!"
+  },
+  "T008": {
+   "intent": "shipping_fee",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "Magkano po shipping sa Cebu? Maaari po naming sabihin na ang shipping fee ay PHP 150."
+  },
+  "T009": {
+   "intent": "payment",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "Opo, may habang UPOS ang COD para sa mga order na PHP 3,000 at mas mababa lang. Kung ang kabuuang halaga ng order mo ay hindi lalampas sa PHP 3,000, pwede mong magpili ng COD bilang paraan ng bayad. Kung ang order ay higit pa sa PHP 3,000, kailangan namang magbayad sa pamamagitan ng GCash, Maya, bank transfer, o kaya’y COD kung mababa pa ang halaga. Kung may gusto kang klarong numero o order amount, sabihin mo lang para matulungan ka namin ng mas eksaktong sagot. 🌿"
+  },
+  "T010": {
+   "intent": "payment",
+   "fields": {
+    "order_id": "SK-10255",
+    "item": null,
+    "qty": null
+   },
+   "reply": "Salamat po sa pag-send ng GCash payment para sa order ID SK‑10255. Ang bayad ay na-verify na namin at ang order ay makakasagawa na – magpapadala kami sa loob ng isang araw ng trabaho. Makikita po ninyo ang tracking number sa SMS at Messenger kapag ni-party at handa na itong ipadala. Kung sakaling may katanungan pa kayo, nandito lang kami po."
+  },
+  "T011": {
+   "intent": "other",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "Hi! 😊 We don’t have a physical store and we only handle inquiries through Messenger and Shopee chat. We don’t take phone calls, but I’m happy to help you right here—just let me know what you need!"
+  },
+  "T012": {
+   "intent": "return_refund",
+   "fields": {
+    "order_id": "SK-10198",
+    "item": "rice cooker",
+    "qty": null
+   },
+   "reply": "Hi! Pasensya po sa abala sa rice cooker ninyo. Ang rice cooker ay sakop ng 30‑day replacement warranty para sa mga factory defect, kaya maaari po natin itong ayusin.  \n\n1️⃣ Pakisend po ng clear na picture ng problema (hal. hindi nag‑on) sa loob ng 48 oras mula sa pagtanggap ninyo ng item.  \n2️⃣ Kapag nakuha na po namin ang larawan, mag‑file kami ng return ticket at sasagutin po namin ang return shipping.  \n3️⃣ Pagdating ng inyong item, papalitan po namin ito agad o ibabalik ang buong bayad (kasama ang shipping fee kung replacement ang pipili ninyo).  \n\nPaki‑reply po ang larawan kasama ang order ID **SK-10198**. Salamat po! 🙏"
+  },
+  "T013": {
+   "intent": "product_question",
+   "fields": {
+    "order_id": null,
+    "item": "glass jars",
+    "qty": 12
+   },
+   "reply": "Sure! 12 ka-item glass jars get the 10 % bulk discount. Let us know what quantity you’d like to place, and we’ll calculate the total price for you. Salamat po!"
+  },
+  "T014": {
+   "intent": "order_status",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "Magandang araw po! Para matulungan po namin kayo na ma‑track ang order, nais naming ma‑hiling ang inyong Order ID o kung ano ang binili ninyo. Kapag na‑receive na namin ang screenshot ng inyong bayad, agad naming ipapadala ang tracking number via SMS at Messenger. Kung nakarehistro na po kayo at may nakuha na na‑numero, ang delivery time ay Metro Manila: 2‑3 na araw ng negosyo, Luzon: 3‑5, Visayas/Mindanao: 5‑7. Salamat po!"
+  },
+  "T015": {
+   "intent": "order_status",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "Magandang araw po! Para matulungan po namin kayo na ma‑track ang order, nais naming ma‑hiling ang inyong Order ID o kung ano ang binili ninyo. Kapag na‑receive na namin ang screenshot ng inyong bayad, agad naming ipapadala ang tracking number via SMS at Messenger. Kung nakarehistro na po kayo at may nakuha na na‑numero, ang delivery time ay Metro Manila: 2‑3 na araw ng negosyo, Luzon: 3‑5, Visayas/Mindanao: 5‑7. Salamat po!"
+  },
+  "T016": {
+   "intent": "change_order",
+   "fields": {
+    "order_id": "SK-10260",
+    "item": "bath towels",
+    "qty": 2
+   },
+   "reply": "Hi po! Salamat sa pag‑update ng order SK‑10260. Maaari po naming idagdag ang 2 bath towels basta’t hindi pa ito na‑ship. Kung ang order ninyo ay hindi pa naipadala (at nasa before 2 PM cut‑off), i‑confirm po natin ito at ia‑add na namin agad. Pakisabi lang po kung ready na kayo para ma‑process. 😊"
+  },
+  "T017": {
+   "intent": "return_refund",
+   "fields": {
+    "order_id": "SK-10170",
+    "item": "blender",
+    "qty": null
+   },
+   "reply": "Hi po! Paumanhin po sa delay. I’ll check the status of your refund for order **SK‑10170** right away. As per our policy, refunds are processed within 3 business days after we receive the returned item. I’ll confirm with our finance team and let you know ASAP. Maraming salamat po sa pasensya!"
+  },
+  "T018": {
+   "intent": "payment",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "We don’t accept credit cards at the moment.  You can pay via GCash, Maya, bank transfer (BPI/BDO), or cash on delivery (up to PHP 3,000).  Just send us a screenshot of the payment through our Messenger page, and we’ll confirm your order within a couple of hours. 🌿🍲"
+  },
+  "T019": {
+   "intent": "shipping_fee",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "Hi! Davao falls under Visayas and Mindanao, so our J&T Express usually delivers in **5 to 7 business days** from the date we hand it over to the courier. ☺️"
+  },
+  "T020": {
+   "intent": "shipping_fee",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "Magkano po shipping sa Cebu? Maaari po naming sabihin na ang shipping fee ay PHP 150."
+  },
+  "T021": {
+   "intent": "return_refund",
+   "fields": {
+    "order_id": "SK-10262",
+    "item": "knife set",
+    "qty": null
+   },
+   "reply": "Hello po! Salamat sa pag‑notify tungkol sa knife set (Order ID: SK-10262). Pasensya na po sa nasira na packaging at gasgas sa blade. Maaari po ba ninyo kaming padalhan ng clear na larawan ng sirang item sa loob ng 48 oras mula nitong natanggap ninyo? Kapag natanggap na po namin ang photo, sagot po namin ang return shipping at magpapadala agad ng kapalit o full refund, ayon po sa inyong kagustuhan. \n\nMaraming salamat po, at hintayin po namin ang larawan! 🙏"
+  },
+  "T022": {
+   "intent": "change_order",
+   "fields": {
+    "order_id": "SK-10265",
+    "item": null,
+    "qty": null
+   },
+   "reply": "Hi po! Salamat sa pag‑message. Para ma‑change ang address ng order po ninyo (SK‑10265), kailangan muna naming malaman kung naipadala na ba ito. \n\n- Kung **hindi pa naipadala** (huli ang cut‑off ng 2 PM sa araw na ito), maaari naming i‑update ang address sa bagong Pasig address na ibibigay ninyo.  \n- Kung **naipadala na** ang parcel, hindi na po natin ito mababago. Pwede po kayong mag‑file ng return pagkatapos ninyong matanggap ang item kung kailangan.\n\nPaki‑confirm po kung ang order ay hindi pa naipadala at ibigay ang kumpletong bagong address (street, barangay, city, zip code) para maiproseso namin agad.\n\nMaraming salamat po! 🙏"
+  },
+  "T023": {
+   "intent": "product_question",
+   "fields": {
+    "order_id": null,
+    "item": "kettle",
+    "qty": null
+   },
+   "reply": "The kettle is 220 V. It’s not suitable for a 100 V supply like Japan without using a voltage converter."
+  },
+  "T024": {
+   "intent": "payment",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "Opo, may habang UPOS ang COD para sa mga order na PHP 3,000 at mas mababa lang. Kung ang kabuuang halaga ng order mo ay hindi lalampas sa PHP 3,000, pwede mong magpili ng COD bilang paraan ng bayad. Kung ang order ay higit pa sa PHP 3,000, kailangan namang magbayad sa pamamagitan ng GCash, Maya, bank transfer, o kaya’y COD kung mababa pa ang halaga. Kung may gusto kang klarong numero o order amount, sabihin mo lang para matulungan ka namin ng mas eksaktong sagot. 🌿"
+  },
+  "T025": {
+   "intent": "cancel_order",
+   "fields": {
+    "order_id": "SK-10230",
+    "item": null,
+    "qty": null
+   },
+   "reply": "Hello po! Salamat sa pag‑message. Sa order po ninyo na **SK-10230**, base sa aming records ay naipadala na po ito, kaya hindi na po pwede itong i‑cancel. \n\nKung sakaling may problema po sa item (sira, mali, o hindi po ninyo gusto), pwede po kayong mag‑file ng return within 7 araw mula sa delivery. Para sa change of mind, kayo po ang magbabayad sa return shipping at ibabalik po namin ang halaga ng produkto (hindi kasama ang orihinal na shipping fee) sa orihinal ninyong payment method. \n\nKung kailangan ninyo po ng guidance sa return process, ipaalam po lang po ninyo at tutulungan namin kayo. Maraming salamat po!"
+  },
+  "T026": {
+   "intent": "other",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "Walang anuman po! 😊 Kung mayroon pa po kayong tanong o kailangan, sabihin lang po namin. Have a great day!"
+  },
+  "T027": {
+   "intent": "shipping_fee",
+   "fields": {
+    "order_id": null,
+    "item": "air fryer",
+    "qty": 2
+   },
+   "reply": "Sure! 🌟 Shipping to Davao (Visayas & Mindanao) is **₱150.**  \nIf the total of your order hits **₱1,500 or more**, the shipping is on us!  \n\nLet me know the prices of the two air fryers (or the total order value) and I’ll confirm the exact shipping cost."
+  },
+  "T028": {
+   "intent": "order_status",
+   "fields": {
+    "order_id": "SK-10270",
+    "item": null,
+    "qty": null
+   },
+   "reply": "Kumusta po! Salamat sa pagbabayad. Sa order ID **SK-10270**, pa‑pending pa rin kasi Hindi pa namin natanggap ang screenshot ng GCash/Maya payment. Mangyaring mag‑send ng snapshot ng payment confirmation sa aming Messenger para ma-verify at ma‑activate na ang order. Kung maipadala na po ito, maihihintay ko agad ang confirmation at ipapa‑update ang status ng order. \n\nKung wala pa po kayo ng screenshot, i‑consolidate na lang ang payment at pag-verify namin. Ang payment confirmation ay karaniwang nagtatagal ng hanggang 2 oras (kung nakarating sa aming oras ng pag-work), kaya may maingay na delay kung hindi pa ito nakita. \n\nMaraming salamat po at mabuhay!"
+  },
+  "T029": {
+   "intent": "product_question",
+   "fields": {
+    "order_id": "null",
+    "item": "bedsheet set queen size",
+    "qty": null
+   },
+   "reply": "Kumusta! Karaniwang may restock ng bedsheet set queen size bawat 2 linggo. Laging narito kaming nandito para bigyan ka ng update—palihug lang ibigay ang iyong contact sa Messenger para ma-notify ka agad sa sandaling makabalik ang stock. Salamat po!"
+  },
+  "T030": {
+   "intent": "shipping_fee",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "The shipping fee to Davao is PHP 150.  \nIf your order total reaches PHP 1,500 or more, shipping will be free."
+  },
+  "T031": {
+   "intent": "change_order",
+   "fields": {
+    "order_id": "SK-10275",
+    "item": "air fryer",
+    "qty": null
+   },
+   "reply": "Sure po! Maaari po naming palitan ang blender ng air fryer basta hindi pa ito naipapadala. Pakisama po ang order ID ninyo para ma-check namin ang status at kung makakagawa pa tayo ng change bago ang cut‑off na 2 PM. Salamat po!"
+  },
+  "T032": {
+   "intent": "payment",
+   "fields": {
+    "order_id": "SK-10275",
+    "item": "air fryer",
+    "qty": null
+   },
+   "reply": "Sure po, you can pay the additional PHP 1,200 via GCash. Ibid to this chat, just send us a screenshot of the payment confirmation. We’ll confirm the receipt within 2 hours during store hours and update you on the next step. Feel free to let us know if you need any help with the transaction. Order ID: SK‑10275."
+  },
+  "T033": {
+   "intent": "order_status",
+   "fields": {
+    "order_id": "SK-10275",
+    "item": null,
+    "qty": null
+   },
+   "reply": "Thank you po. Ang order ID **SK-10275** ay nakumpirma na at ipapadala namin ito sa J&T within one business day. \n\nPara sa Batangas, ang tinatayang delivery time ay 3 to 5 business days. Kabuuan mo ang tracking number via SMS at Messenger kapag naipadala na ang parcel.  \n\nKung may iba pa kayong katanungan, huwag mag-atubiling mag-message. 🚚💡"
+  },
+  "T034": {
+   "intent": "order_status",
+   "fields": {
+    "order_id": "SK-10275",
+    "item": "air fryer",
+    "qty": null
+   },
+   "reply": "Hi po, salamat po sa pag‑follow‑up. Nais ko lang kayong ipaalam na ang inyong air fryer (Order ID: SK-10275) ay naka‑follow‑up na namin kay J&T dahil hindi pa gumagalaw ng tatlong araw ang tracking. Makakaasa po kayo na ipapa‑update namin kayo kapag may balita na. Kung may karagdagang katanungan, huwag mag‑hesitate na mag‑message po. Pakikitungo po namin agad sa kailangan ninyo."
+  },
+  "T035": {
+   "intent": "return_refund",
+   "fields": {
+    "order_id": null,
+    "item": "air fryer",
+    "qty": null
+   },
+   "reply": "Pasensya po sa abala. Maaari po ba ninyo kaming padalhan ng litrato ng dent at ng appliance na hindi umiinit? Kung makakakuha po kami ng larawan sa loob ng 48 oras, agad po naming i‑process ang return shipping para sa inyo at magpapadala kami ng kapalit o magbibigay ng full refund, alinsunod po sa aming policy. \n\nPaki‑share naman po ang Order ID ninyo para ma‑tukoy namin agad ang detalye ng inyong order. Maraming salamat po!"
+  },
+  "T036": {
+   "intent": "return_refund",
+   "fields": {
+    "order_id": null,
+    "item": "air fryer",
+    "qty": null
+   },
+   "reply": "Sama po sa aming patakaran, para sa defective o maling item na papalitan namin, sagot po namin ang shipping papunta sa amin. Ipapadala po namin agad ang kapalit na air fryer at aayusin namin ang return shipping. Maraming salamat po!"
+  },
+  "T037": {
+   "intent": "product_question",
+   "fields": {
+    "order_id": null,
+    "item": "food containers",
+    "qty": 10
+   },
+   "reply": "Sure po! 10 pcs ng 1‑liter food containers is eligible for a 10% bulk discount.  \nI’ll give you the quick quote:\n\n**Unit price:** ₱150.00  \n**Total before discount:** ₱1,500.00  \n**Discount (10%):** ₱150.00  \n**Total after discount:** ₱1,350.00\n\n(+₱80 shipping for Metro Manila)\n\n**Shipping fee:** ₱80.00 (free shipping only for orders ≥ ₱1,500.00)\n\n**Grand total:** **₱1,430.00**  \n\nLet me know if you’d like to confirm the order, then I’ll send the pay‑to‑GCash/Maya link and we’ll process your payment right away. Thank you po!"
+  },
+  "T038": {
+   "intent": "change_order",
+   "fields": {
+    "order_id": "SK-10301",
+    "item": "food containers",
+    "qty": 15
+   },
+   "reply": "Hi po, salamat sa update. Dahil ang bayad po ninyo ay na-receive before 2 PM, ang order SK‑10301 ay na‑process na para sa same‑day shipment. Sa aming policy, hindi na po pwedeng baguhin ang quantity pagkatapos ng 2 PM cut‑off.  \n\nKung nais po ninyo ng karagdagang 5 pcs, maaari po kayong mag‑place ng bagong order. Kung sakaling hindi pa po nai‑ship ang unang order at makakakuha po kami ng confirmation mula sa courier, susubukan po naming tingnan kung may posibilidad pa, pero hindi po ito garantisado.  \n\nPasensya po sa abala. Let us know po kung gusto ninyo mag‑order ulit o kung may iba pa po kaming ma‑assist. 🙏"
+  },
+  "T039": {
+   "intent": "return_refund",
+   "fields": {
+    "order_id": "SK-10280",
+    "item": "bedsheet",
+    "qty": null
+   },
+   "reply": "Thank you for letting us know, and we’re sorry about the mix‑up with your bedsheet, order **SK-10280**.  \n\nSince it’s the wrong size, please send us a clear photo of the item (including the label/size) within the next 48 hours. Once we receive the photo, we’ll arrange for the correct queen‑size bedsheet to be sent to you and we’ll cover the return shipping for the single‑size piece.  \n\nIf you’d rather receive a refund instead, just let us know in your reply and we’ll process it after we receive the returned item.  \n\nWe’ll keep you posted on the next steps. Salamat po!"
+  },
+  "T040": {
+   "intent": "shipping_fee",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "Magandang umaga din po! Dahil ang kabuuan ng order ninyo ay ₱1,600, libre na ang shipping kahit sa Iloilo po. Kung may iba pa po kayong nais itanong, huwag mag‑hesitate na bumalik."
+  },
+  "T041": {
+   "intent": "payment",
+   "fields": {
+    "order_id": "SK-10290",
+    "item": null,
+    "qty": null
+   },
+   "reply": "Sure, po! You can pay with GCash for order **SK-10290**. Just send us a screenshot of the payment to our Messenger page, and we’ll confirm it within 2 hours during store hours. Let us know once you’ve sent it!"
+  },
+  "T042": {
+   "intent": "shipping_fee",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "The shipping fee to Davao is PHP 150.  \nIf your order total reaches PHP 1,500 or more, shipping will be free."
+  },
+  "T043": {
+   "intent": "payment",
+   "fields": {
+    "order_id": null,
+    "item": "blender",
+    "qty": 2
+   },
+   "reply": "I’m sorry po, but we don’t accept credit cards at the moment.  You can pay via GCash, Maya, bank transfer (BPI, BDO), or COD (up to PHP 3,000).  Once you choose, just send me a screenshot of the payment and we’ll confirm your order. Happy shopping!"
+  },
+  "T044": {
+   "intent": "return_refund",
+   "fields": {
+    "order_id": "SK-10295",
+    "item": null,
+    "qty": null
+   },
+   "reply": "Hi! I'm sorry to hear that your order SK-10295 says “delivered” but you haven’t received it. Could you please share a photo of the delivery receipt (if you have one) and confirm the shipping address you gave us? We’ll immediately file a follow‑up ticket with J&T on your behalf and keep you updated on the status. Thank you for your patience!"
+  },
+  "T045": {
+   "intent": "other",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "Pasensya na po sa delay! Sa inyong mensahe namin po sagutin mula Lunes, dahil ang aming Messenger support ay bukas lamang mula Lunes hanggang Sabado, 9 am–6 pm. Nais naming masiguro na maasikaso nang maayos ang bawat katanungan. Salamat po sa pag‑intindi!"
+  },
+  "T046": {
+   "intent": "other",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "Paumanhin po, wala kaming pickup service. Lahat po ng order ay ipinapadala mula sa aming warehouse sa QC gamit ang J&T Express. Sa loob ng Metro Manila ay usually 2‑3 business days ang delivery, at PHP 80 ang shipping fee (libre po kung ₱1,500 pataas). I‑message lang po ninyo kami kung gusto ninyo mag‑order o kung may iba pa kayong katanungan."
+  },
+  "T047": {
+   "intent": "cancel_order",
+   "fields": {
+    "order_id": "SK-10300",
+    "item": null,
+    "qty": null
+   },
+   "reply": "Hi po! Nakansela na po namin ang order SK‑10300. Dahil prepaid via GCash, ire‑refund po namin ito nang buo. Ang refund ay ida‑deposit sa inyong GCash account sa loob ng 2–3 business days, at magpapadala po kami ng confirmation kapag na‑process na. Maraming salamat po!"
+  },
+  "T048": {
+   "intent": "product_question",
+   "fields": {
+    "order_id": null,
+    "item": "bath towel",
+    "qty": null
+   },
+   "reply": "Ang bath towel namin ay may sukat na 70 cm × 140 cm po."
+  },
+  "T049": {
+   "intent": "payment",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "Pasensya po, hindi na tinatanggap ang COD para sa order na higit sa ₱3,000. Pwede po kayong magbayad gamit ang GCash, Maya, o bank transfer (BPI, BDO). I‑submit lang po ang screenshot ng bayad sa Messenger para ma-verify agad. Maraming salamat po!"
+  },
+  "T050": {
+   "intent": "return_refund",
+   "fields": {
+    "order_id": null,
+    "item": "dish rack",
+    "qty": null
+   },
+   "reply": "Po! Para po sa change of mind return ng dish rack (SK‑10285), sundan po ninyo ang mga hakbang na ito:\n\n1. **Within 7 days** after ninyo natanggap ang item, siguraduhing hindi pa nagagamit ang dish rack, nasa original packaging pa, at kasama ang order slip.  \n2. Mag‑send po kayo ng mensahe dito sa Messenger kasama ang **photo ng item at ng packaging** at sabihing gusto ninyong i‑return ito dahil sa change of mind.  \n3. **Return shipping** po po ninyo ang babayaran. Kapag na‑arrange na po ninyo ang pick‑up o drop‑off, ibigay po sa courier ang tracking number at ipaalam sa amin.  \n4. Pag natanggap po namin ang returned item at na‑verify na nasa tamang kondisyon, magre‑refund po kami sa original na payment method (GCash, Maya, bank transfer, o kung COD, ibaback to GCash) **within 3 business days**. Hindi po kasama sa refund ang orihinal na shipping fee.  \n\nPara po mas mapabilis ang proseso, pakibigay po ang inyong **order ID**. Maraming salamat po!"
+  },
+  "T051": {
+   "intent": "shipping_fee",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "Hi! Yes, we ship nationwide, so orders to Batanes are absolutely possible. The shipping fee for Batanes is PHP 150, and delivery usually takes 5 to 7 business days. If your order reaches PHP 1,500 or more, shipping will be free. Let us know if you’d like to proceed or have any other questions!"
+  },
+  "T052": {
+   "intent": "order_status",
+   "fields": {
+    "order_id": "SK-10305",
+    "item": null,
+    "qty": null
+   },
+   "reply": "Hi po! Pa‑update po namin ang order **SK‑10305**:\n\n- We’ve already contacted J&T Express on your behalf.  \n- A printable tracking number will be sent via SMS/Messenger as soon as the parcel is handed over to J&T.  \n- If it hasn’t moved in the next few days, we’ll file a follow‑up ticket right away.\n\nThank you po for your patience! Let us know if you have any more questions."
+  },
+  "T053": {
+   "intent": "product_question",
+   "fields": {
+    "order_id": null,
+    "item": "kettle",
+    "qty": null
+   },
+   "reply": "Magandang araw po! Ang lahat ng aming small appliances, kagaya ng kettle, ay naka-220V. Kung gagamitin po ito sa 110V, may panganib na masira o hindi magtrabaho ng maayos ang unit. Kung kailangan nyo ng 110V‑compatible na kettle, maaari naming tulungan kayong hanapin ang tamang produkto. Salamat po!"
+  },
+  "T054": {
+   "intent": "order_status",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "Hi po! 👋 Para matiyak na ma-trace namin ang order ninyo, kailangan po namin ng order ID o transaction number. Ilakip po kung maganap na makikita ninyong xml? Salamat po!"
+  },
+  "T055": {
+   "intent": "change_order",
+   "fields": {
+    "order_id": "SK-10310",
+    "item": null,
+    "qty": null
+   },
+   "reply": "Hi po! Salamat sa pag‑notify. Dahil ang order po ninyo (SK‑10310) ay “not yet shipped,” pwede pa po naming palitan ang address. Pakisend na lang po ang tamang address dito sa Messenger, at aayusin namin agad. Kapag na‑update na, i‑confirm po namin sa inyo. \n\n*Paalala lang po, kung ang order ay na‑hand over na sa courier, hindi na po ito pwedeng baguhin.*  \n\nMaraming salamat po!"
+  },
+  "T056": {
+   "intent": "return_refund",
+   "fields": {
+    "order_id": null,
+    "item": "blender",
+    "qty": null
+   },
+   "reply": "Oo po, ang aming mga blender ay may **30‑day replacement warranty** para sa mga depekto mula sa factory. Ang warranty ay hindi sumasaklaw sa pinsala dulot ng maling paggamit, pagkahulog, o maling boltahe. Lahat ng appliances namin ay 220V po. Kung may ibang katanungan po kayo, handa kaming tumulong!"
+  },
+  "T057": {
+   "intent": "shipping_fee",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "Magkano po shipping sa Cebu? Maaari po naming sabihin na ang shipping fee ay PHP 150."
+  },
+  "T058": {
+   "intent": "return_refund",
+   "fields": {
+    "order_id": "SK-10312",
+    "item": "rice cooker",
+    "qty": null
+   },
+   "reply": "Hi po! Salamat sa pag‑report ng sira ang kahon ng rice cooker (Order ID: SK-10312).  \nPwede po ba ninyo kaming padalhan ng larawan ng nasirang packaging sa loob ng 48 oras? Kapag natanggap na po namin ang pic, sagutin po namin kung papalitan namin ang item o ibabalik ang bayad. Walang dagdag na bayad para sa return shipping kung pipili po kayo ng replacement o full refund.  \n\nMaraming salamat po! 🙏"
+  },
+  "T059": {
+   "intent": "change_order",
+   "fields": {
+    "order_id": "SK-10315",
+    "item": "kettles",
+    "qty": 3
+   },
+   "reply": "Hi! Sure po, we can update order **SK-10315** from 2 to 3 kettles since it’s still before our 2 PM cut‑off. The extra kettle will add ₱ [price] to your order. Please send the payment difference (GCash, Maya, or bank transfer) with a screenshot here, and we’ll adjust the order right away. Once we receive the confirmation, we’ll pack and hand it to J&T today. Salamat po!"
+  },
+  "T060": {
+   "intent": "payment",
+   "fields": {
+    "order_id": null,
+    "item": null,
+    "qty": null
+   },
+   "reply": "Opo, may habang UPOS ang COD para sa mga order na PHP 3,000 at mas mababa lang. Kung ang kabuuang halaga ng order mo ay hindi lalampas sa PHP 3,000, pwede mong magpili ng COD bilang paraan ng bayad. Kung ang order ay higit pa sa PHP 3,000, kailangan namang magbayad sa pamamagitan ng GCash, Maya, bank transfer, o kaya’y COD kung mababa pa ang halaga. Kung may gusto kang klarong numero o order amount, sabihin mo lang para matulungan ka namin ng mas eksaktong sagot. 🌿"
+  }
+ }
+}

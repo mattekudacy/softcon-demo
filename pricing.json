@@ -1,0 +1,10 @@
+{
+  "source": "https://ollama.com/pricing",
+  "retrieved": "2026-10-26",
+  "unit": "USD per 1M tokens",
+  "note": "Ollama Cloud list prices. Cost is computed from these rates and recorded token counts. Thinking tokens count as output.",
+  "models": {
+    "gpt-oss:120b": {"input": 0.15, "output": 0.60},
+    "gpt-oss:20b": {"input": 0.07, "output": 0.30}
+  }
+}
